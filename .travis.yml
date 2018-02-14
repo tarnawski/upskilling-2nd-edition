@@ -14,7 +14,7 @@ script:
   - ./vendor/bin/phpspec run
   - ./vendor/bin/behat
 
-mmatrix:
+matrix:
   allow_failures:
     - php: 7.3
     - php: nightly
